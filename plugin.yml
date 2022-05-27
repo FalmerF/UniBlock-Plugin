@@ -1,0 +1,86 @@
+name: UniSystem
+main: net.ifmcore.Uni
+version: 0.0.1
+api-version: 1.18
+author: Falmer.
+
+commands:
+    reloadcfg:
+        permission: op
+    setmaxhp:
+        permission: op
+    getitemnbt:
+        permission: op
+    shop:
+        permission: op
+    killdragon:
+        permission: op
+    citems:
+        permission: op
+    restart:
+        permission: op
+    clearlag:
+        permission: op
+        aliases:
+        - "cl"
+    gamemode:
+        permission: op
+        aliases:
+        - "gm"
+    seen:
+        permission: op
+    invsee:
+        permission: op
+    getstats:
+        permission: op
+    toggleevent:
+        permission: op
+    eventreload:
+        permission: op
+    giveitem:
+        permission: op
+    lighting:
+        permission: op
+    endersee:
+        permission: op
+    setplaytime:
+        permission: op
+    loadchunk:
+        permission: op
+    m:
+        description: ...
+        aliases:
+        - "message"
+        - "msg"
+    r:
+        description: ...
+    home:
+        description: ...
+        aliases:
+        - "h"
+    call:
+        description: ...
+    tpaccept:
+        description: ...
+    tpdeny:
+        description: ...
+    trade:
+        description: ...
+    afk:
+        description: ...
+    recipes:
+        description: ...
+    changepassword:
+        description: ...
+    badge:
+        description: ...
+    settings:
+        description: ...
+    guide:
+        description: ...
+    login:
+        aliases:
+        - "l"
+    register:
+        aliases:
+        - "reg"
